@@ -8,6 +8,9 @@ def using_pop(array)
   array.pop
 end
 def pop_with_args(array)
-  array.pop
-  array.pop
+  ary = []
+  for i in 0..1
+    ary[i] = array.pop
+  end
+  return ary
 end
