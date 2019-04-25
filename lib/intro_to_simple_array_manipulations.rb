@@ -21,10 +21,8 @@ def using_shift(array)
 end
 def shift_with_args(array)
   ary = []
-  i = 1
-  while i >= 0
+  for i in 0..1
     ary[i] = array.shift
-    i -= 1
   end
   return ary
 end
