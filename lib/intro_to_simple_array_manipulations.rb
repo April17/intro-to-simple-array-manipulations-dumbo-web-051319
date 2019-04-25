@@ -23,7 +23,7 @@ def shift_with_args(array)
   ary = []
   i = 1
   while i >= 0
-    ary[i] = array.pop
+    ary[i] = array.shift
     i -= 1
   end
   return ary
