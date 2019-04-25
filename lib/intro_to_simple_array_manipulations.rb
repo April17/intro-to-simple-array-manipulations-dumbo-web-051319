@@ -9,8 +9,10 @@ def using_pop(array)
 end
 def pop_with_args(array)
   ary = []
-  for i in 1..0
+  i = 1
+  while i >= 0
     ary[i] = array.pop
+    i -= 1
   end
   return ary
 end
