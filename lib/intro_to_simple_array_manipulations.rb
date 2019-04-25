@@ -9,7 +9,7 @@ def using_pop(array)
 end
 def pop_with_args(array)
   ary = []
-  for i in 0..1
+  for i in 1..0
     ary[i] = array.pop
   end
   return ary
