@@ -16,3 +16,15 @@ def pop_with_args(array)
   end
   return ary
 end
+def using_shift(array)
+  array.shift
+end
+def shift_with_args(array)
+  ary = []
+  i = 1
+  while i >= 0
+    ary[i] = array.pop
+    i -= 1
+  end
+  return ary
+end
